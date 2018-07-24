@@ -8,16 +8,13 @@ import Html.Attributes as Attr
 import Html.Events as Event
 
 
--- Todo: should I change State from a type alias to a type?
 -- STATE
 
 
 {-| Tracks whether the dropdown is displayed and which items are checked.
 -}
-type alias State =
-    { checkedlist : List String
-    , displayDropDown : Bool
-    }
+type State =
+    State (List String) Bool
 
 
 {-| Create a dropdown state. By providing a list of strings, you determine which
@@ -31,9 +28,7 @@ checked by default, you might say:
 -}
 initialState : List String -> State
 initialState listOfCheckedItems =
-    { checkedList = listOfCheckedItems
-    , displayDropDown = False
-    }
+    State listOfCheckedItems False
 
 
 
@@ -45,7 +40,8 @@ initialState listOfCheckedItems =
 Note: Your configuration should only appear in your view code, not your model.
 
 -}
-type alias Config =
+type Config =
+    Config
     { displayText : String
     , toMsg : State -> msg
     }
@@ -62,8 +58,12 @@ config :
     { displayText : String
     , toMsg : State -> msg
     }
+    -> Config
 config { displayText, toMsg } =
-    { displayText = displayText, toMsg = toMsg }
+    Config
+    { displayText = displayText
+    , toMsg = toMsg
+    }
 
 
 
@@ -74,15 +74,14 @@ config { displayText, toMsg } =
 is the configuration for the dropdown. The 'State' argument describes which items are
 currently checked.
 
-Note: The 'State' and 'List items' should be in your 'Model'. The 'Config' for the dropdown
+Note: The 'State' and 'List String' should be in your 'Model'. The 'Config' for the dropdown
 should live in your 'view' code.
 
 -}
 view : Config -> State -> List String -> Html msg
-view { displayText, toMsg } { checkedList, displayDropDown } itemsList =
+view (Config { displayText, toMsg }) (State { listOfCheckedItems, displayDropDown }) itemsList =
     Html.div
-        [ Attr.style css.dropUpWidget
-        ]
+        [ Attr.style css.dropUpWidget ]
         [ Html.div []
             [ Html.button
                 [ Attr.style css.displayText
@@ -93,15 +92,12 @@ view { displayText, toMsg } { checkedList, displayDropDown } itemsList =
             , if displayDropDown == True then
                 Html.div
                     [ Attr.style css.selectOrHideAll ]
-                    [ viewSelectOrHideAll
-                        (checkAll itemsList)
-                        "Select All"
-                        (List.length itemsList /= List.length checkedList)
+                    [ viewSelectAllButton
+                        (List.length itemsList /= List.length listOfCheckedItems)
+                        itemsList
                         toMsg
-                    , viewSelectOrHideAll
-                        uncheckAll
-                        "Hide All"
-                        (checkedList /= [])
+                    , viewHideAllButton
+                        (listOfCheckedItems /= [])
                         toMsg
                     ]
               else
@@ -109,42 +105,59 @@ view { displayText, toMsg } { checkedList, displayDropDown } itemsList =
             ]
         , viewChecklist
             displayDropDown
-            checkedList
+            listOfCheckedItems
             itemsList
             toMsg
         ]
 
 
-viewSelectOrHideAll : msg -> String -> Bool -> (State -> msg) -> Html msg
-viewSelectOrHideAll clickMsg displayText isApplicable toMsg =
+viewSelectAllButton : Bool -> List String -> ( State -> msg) -> Html msg
+viewSelectAllButton isApplicable itemsList toMsg =
     if isApplicable then
         Html.button
             [ Attr.class "btn btn-basic"
             , Attr.style css.dropUpButton
-            , Event.onClick clickMsg |> toMsg
+            , Event.onClick ( checkAll itemsList) |> toMsg
             ]
-            [ Html.text displayText ]
+            [ Html.text "Select All" ]
     else
         Html.button
             [ Attr.class "btn btn-basic disabled"
             , Attr.style css.dropUpButton
             ]
-            [ Html.text displayText ]
+            [ Html.text "Select All" ]
+
+
+viewHideAllButton : Bool -> ( State -> msg) -> Html msg
+viewHideAllButton isApplicable toMsg =
+    if isApplicable then
+        Html.button
+            [ Attr.class "btn btn-basic"
+            , Attr.style css.dropUpButton
+            , Event.onClick uncheckAll |> toMsg
+            ]
+            [ Html.text "Hide All" ]
+    else
+        Html.button
+            [ Attr.class "btn btn-basic disabled"
+            , Attr.style css.dropUpButton
+            ]
+            [ Html.text "Hide All" ]
 
 
 viewChecklist : Bool -> List String -> List String -> (State -> msg) -> Html msg
-viewChecklist display checkedList itemsList toMsg =
+viewChecklist display listOfCheckedItems itemsList toMsg =
     if display == True then
         Html.div
             [ Attr.style css.popUpMenu
             ]
-            (List.map (viewRow checkedList) itemsList)
+            (List.map (viewRow listOfCheckedItems) itemsList)
     else
         Html.text ""
 
 
 viewRow : List String -> (State -> msg) -> String -> Html msg
-viewRow checkedList toMsg item =
+viewRow listOfCheckedItems toMsg item =
     Html.div
         [ Attr.style
             [ ( "padding", "10px 10px 0px" )
@@ -155,7 +168,7 @@ viewRow checkedList toMsg item =
             [ Html.input
                 [ Attr.type_ "checkbox"
                 , Attr.style [ ( "margin-right", "5px" ) ]
-                , Attr.checked (List.member item checkedList)
+                , Attr.checked (List.member item listOfCheckedItems)
                 , Event.onClick (toggleItem item) |> toMsg
                 ]
                 []
@@ -175,24 +188,24 @@ toggleDisplay state =
 -}
 checkAll : State -> List String -> State
 checkAll state itemsList =
-    { state | checkedList = itemsList }
+    { state | listOfCheckedItems = itemsList }
 
 
 {-| Uncheck all items.
 -}
 uncheckAll : State -> State
 uncheckAll state =
-    { state | checkedList = [] }
+    { state | listOfCheckedItems = [] }
 
 
 {-| Toggle whether an item is checked.
 -}
 toggleItem : String -> State -> State
 toggleItem item state =
-    if List.member item state.checkedList then
-        { state | checkedList = List.filter (\s -> item /= s) state.checkedList }
+    if List.member item state.listOfCheckedItems then
+        { state | listOfCheckedItems = List.filter (\s -> item /= s) state.listOfCheckedItems }
     else
-        { state | listToShow = [ item ] ++ state.checkedList }
+        { state | listToShow = [ item ] ++ state.listOfCheckedItems }
 
 
 
