@@ -1,0 +1,52 @@
+var _user$project$Main$view = function (_p0) {
+	var _p1 = _p0;
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('hi'),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p2 = msg;
+		return {
+			ctor: '_Tuple2',
+			_0: _elm_lang$core$Native_Utils.update(
+				model,
+				{dropdownState: _p2._0}),
+			_1: _elm_lang$core$Platform_Cmd$none
+		};
+	});
+var _user$project$Main$init = {
+	ctor: '_Tuple2',
+	_0: {
+		data: {
+			ctor: '::',
+			_0: 'a',
+			_1: {
+				ctor: '::',
+				_0: 'b',
+				_1: {
+					ctor: '::',
+					_0: 'c',
+					_1: {ctor: '[]'}
+				}
+			}
+		},
+		dropdownState: _user$project$DropUp$initialState(
+			{ctor: '[]'})
+	},
+	_1: _elm_lang$core$Platform_Cmd$none
+};
+var _user$project$Main$Model = F2(
+	function (a, b) {
+		return {data: a, dropdownState: b};
+	});
+var _user$project$Main$SetDropDownState = function (a) {
+	return {ctor: 'SetDropDownState', _0: a};
+};
+var _user$project$Main$config = _user$project$DropUp$config(
+	{displayText: 'Hi', toMsg: _user$project$Main$SetDropDownState});
