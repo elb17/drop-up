@@ -1,0 +1,100 @@
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		if (_p0.ctor === 'SetDropDownState') {
+			return {
+				ctor: '_Tuple2',
+				_0: _elm_lang$core$Native_Utils.update(
+					model,
+					{dropdownState: _p0._0}),
+				_1: _elm_lang$core$Platform_Cmd$none
+			};
+		} else {
+			return {
+				ctor: '_Tuple2',
+				_0: _elm_lang$core$Native_Utils.update(
+					model,
+					{data: _p0._0}),
+				_1: _elm_lang$core$Platform_Cmd$none
+			};
+		}
+	});
+var _user$project$Main$init = {
+	ctor: '_Tuple2',
+	_0: {
+		data: {
+			ctor: '::',
+			_0: {ctor: '_Tuple2', _0: 'Option 1', _1: false},
+			_1: {
+				ctor: '::',
+				_0: {ctor: '_Tuple2', _0: 'Option 2', _1: false},
+				_1: {
+					ctor: '::',
+					_0: {ctor: '_Tuple2', _0: 'Option 3', _1: false},
+					_1: {ctor: '[]'}
+				}
+			}
+		},
+		dropdownState: _user$project$DropUp$initialState
+	},
+	_1: _elm_lang$core$Platform_Cmd$none
+};
+var _user$project$Main$Model = F2(
+	function (a, b) {
+		return {data: a, dropdownState: b};
+	});
+var _user$project$Main$SetItems = function (a) {
+	return {ctor: 'SetItems', _0: a};
+};
+var _user$project$Main$SetDropDownState = function (a) {
+	return {ctor: 'SetDropDownState', _0: a};
+};
+var _user$project$Main$config = _user$project$DropUp$customConfig(
+	{
+		displayText: 'Example',
+		stateToMsg: _user$project$Main$SetDropDownState,
+		dataToMsg: _user$project$Main$SetItems,
+		dataToString: function (item) {
+			return item;
+		},
+		displayDirection: _user$project$DropUp$Up,
+		displayCheckAllButtons: true
+	});
+var _user$project$Main$view = function (_p1) {
+	var _p2 = _p1;
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$div,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$style(
+						{
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'margin', _1: '200px auto'},
+							_1: {
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'width', _1: '200px'},
+								_1: {ctor: '[]'}
+							}
+						}),
+					_1: {ctor: '[]'}
+				},
+				{
+					ctor: '::',
+					_0: A3(_user$project$DropUp$view, _user$project$Main$config, _p2.dropdownState, _p2.data),
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$Main$main = _elm_lang$html$Html$program(
+	{
+		init: _user$project$Main$init,
+		update: _user$project$Main$update,
+		view: _user$project$Main$view,
+		subscriptions: _elm_lang$core$Basics$always(_elm_lang$core$Platform_Sub$none)
+	})();

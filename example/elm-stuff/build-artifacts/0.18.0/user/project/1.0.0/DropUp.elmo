@@ -1,0 +1,433 @@
+var _user$project$DropUp$css = {
+	toggleButton: {
+		ctor: '::',
+		_0: {ctor: '_Tuple2', _0: 'width', _1: '100%'},
+		_1: {
+			ctor: '::',
+			_0: {ctor: '_Tuple2', _0: 'text-overflow', _1: 'ellipsis'},
+			_1: {
+				ctor: '::',
+				_0: {ctor: '_Tuple2', _0: 'overflow', _1: 'hidden'},
+				_1: {
+					ctor: '::',
+					_0: {ctor: '_Tuple2', _0: 'background-color', _1: '#eeeeee'},
+					_1: {
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'border', _1: '1px solid #d0d0d0'},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'font-size', _1: '16px'},
+							_1: {
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'padding-top', _1: '4px'},
+								_1: {
+									ctor: '::',
+									_0: {ctor: '_Tuple2', _0: 'padding-bottom', _1: '4px'},
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	checklist: {
+		ctor: '::',
+		_0: {ctor: '_Tuple2', _0: 'max-height', _1: '200px'},
+		_1: {
+			ctor: '::',
+			_0: {ctor: '_Tuple2', _0: 'overflow-y', _1: 'auto'},
+			_1: {
+				ctor: '::',
+				_0: {ctor: '_Tuple2', _0: 'word-wrap', _1: 'break-word'},
+				_1: {
+					ctor: '::',
+					_0: {ctor: '_Tuple2', _0: 'border', _1: '1px solid #e0e0e0'},
+					_1: {
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'z-index', _1: '2'},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'margin-top', _1: '0px'},
+							_1: {
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'left', _1: '0px'},
+								_1: {
+									ctor: '::',
+									_0: {ctor: '_Tuple2', _0: 'right', _1: '0px'},
+									_1: {
+										ctor: '::',
+										_0: {ctor: '_Tuple2', _0: 'padding-bottom', _1: '10px'},
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	checklistAbove: {
+		ctor: '::',
+		_0: {ctor: '_Tuple2', _0: 'position', _1: 'absolute'},
+		_1: {
+			ctor: '::',
+			_0: {ctor: '_Tuple2', _0: 'bottom', _1: '28px'},
+			_1: {
+				ctor: '::',
+				_0: {ctor: '_Tuple2', _0: 'border-bottom', _1: 'none'},
+				_1: {ctor: '[]'}
+			}
+		}
+	},
+	checklistBelow: {
+		ctor: '::',
+		_0: {ctor: '_Tuple2', _0: 'border-top', _1: 'none'},
+		_1: {ctor: '[]'}
+	},
+	checkAllButtonsAbove: {
+		ctor: '::',
+		_0: {ctor: '_Tuple2', _0: 'position', _1: 'relative'},
+		_1: {
+			ctor: '::',
+			_0: {ctor: '_Tuple2', _0: 'bottom', _1: '53px'},
+			_1: {
+				ctor: '::',
+				_0: {ctor: '_Tuple2', _0: 'border-top', _1: '1px solid #d0d0d0'},
+				_1: {
+					ctor: '::',
+					_0: {ctor: '_Tuple2', _0: 'border-bottom', _1: 'none'},
+					_1: {ctor: '[]'}
+				}
+			}
+		}
+	},
+	checkAllButtons: {
+		ctor: '::',
+		_0: {ctor: '_Tuple2', _0: 'width', _1: '50%'},
+		_1: {
+			ctor: '::',
+			_0: {ctor: '_Tuple2', _0: 'height', _1: '25px'},
+			_1: {
+				ctor: '::',
+				_0: {ctor: '_Tuple2', _0: 'white-space', _1: 'nowrap'},
+				_1: {
+					ctor: '::',
+					_0: {ctor: '_Tuple2', _0: 'text-overflow', _1: 'ellipsis'},
+					_1: {
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'overflow', _1: 'hidden'},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'font-size', _1: '11px'},
+							_1: {
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'border-radius', _1: '0px'},
+								_1: {
+									ctor: '::',
+									_0: {ctor: '_Tuple2', _0: 'border', _1: '1px solid #d0d0d0'},
+									_1: {
+										ctor: '::',
+										_0: {ctor: '_Tuple2', _0: 'border-top', _1: 'none'},
+										_1: {
+											ctor: '::',
+											_0: {ctor: '_Tuple2', _0: 'background-color', _1: 'white'},
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
+var _user$project$DropUp$toggleItem = F2(
+	function (_p0, data) {
+		var _p1 = _p0;
+		return A2(
+			_elm_lang$core$List$map,
+			function (_p2) {
+				var _p3 = _p2;
+				var _p5 = _p3._0;
+				var _p4 = _p3._1;
+				return _elm_lang$core$Native_Utils.eq(_p5, _p1._0) ? {ctor: '_Tuple2', _0: _p5, _1: !_p4} : {ctor: '_Tuple2', _0: _p5, _1: _p4};
+			},
+			data);
+	});
+var _user$project$DropUp$uncheckAll = function (data) {
+	return A2(
+		_elm_lang$core$List$map,
+		function (_p6) {
+			var _p7 = _p6;
+			return {ctor: '_Tuple2', _0: _p7._0, _1: false};
+		},
+		data);
+};
+var _user$project$DropUp$checkAll = function (data) {
+	return A2(
+		_elm_lang$core$List$map,
+		function (_p8) {
+			var _p9 = _p8;
+			return {ctor: '_Tuple2', _0: _p9._0, _1: true};
+		},
+		data);
+};
+var _user$project$DropUp$toggleDisplay = function (state) {
+	return _elm_lang$core$Native_Utils.update(
+		state,
+		{displayDropDown: !state.displayDropDown});
+};
+var _user$project$DropUp$viewHideAllButton = F3(
+	function (cssStyle, data, dataToMsg) {
+		return A2(
+			_elm_lang$html$Html$button,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$style(
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						cssStyle,
+						{
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'border-left', _1: 'none'},
+							_1: {ctor: '[]'}
+						})),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Events$onClick(
+						dataToMsg(
+							_user$project$DropUp$uncheckAll(data))),
+					_1: {ctor: '[]'}
+				}
+			},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Uncheck All'),
+				_1: {ctor: '[]'}
+			});
+	});
+var _user$project$DropUp$viewSelectAllButton = F3(
+	function (cssStyle, data, dataToMsg) {
+		return A2(
+			_elm_lang$html$Html$button,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$style(cssStyle),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Events$onClick(
+						dataToMsg(
+							_user$project$DropUp$checkAll(data))),
+					_1: {ctor: '[]'}
+				}
+			},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Check All'),
+				_1: {ctor: '[]'}
+			});
+	});
+var _user$project$DropUp$viewRow = F4(
+	function (dataToMsg, dataToString, data, _p10) {
+		var _p11 = _p10;
+		var _p13 = _p11._0;
+		var _p12 = _p11._1;
+		return A2(
+			_elm_lang$html$Html$div,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$style(
+					{
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'margin', _1: '10px 10px 0px'},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'background-color', _1: 'white'},
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {ctor: '[]'}
+			},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$span,
+					{ctor: '[]'},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$input,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$type_('checkbox'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$style(
+										{
+											ctor: '::',
+											_0: {ctor: '_Tuple2', _0: 'margin-right', _1: '5px'},
+											_1: {ctor: '[]'}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$checked(_p12),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Events$onClick(
+												dataToMsg(
+													A2(
+														_user$project$DropUp$toggleItem,
+														{ctor: '_Tuple2', _0: _p13, _1: _p12},
+														data))),
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							},
+							{ctor: '[]'}),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text(
+						dataToString(_p13)),
+					_1: {ctor: '[]'}
+				}
+			});
+	});
+var _user$project$DropUp$initialState = {displayDropDown: true};
+var _user$project$DropUp$State = function (a) {
+	return {displayDropDown: a};
+};
+var _user$project$DropUp$Down = {ctor: 'Down'};
+var _user$project$DropUp$viewChecklist = F3(
+	function (_p14, data, state) {
+		var _p15 = _p14;
+		var _p16 = _p15._0;
+		var cssStyle = _elm_lang$core$Native_Utils.eq(_p16.displayDirection, _user$project$DropUp$Down) ? A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checklist, _user$project$DropUp$css.checklistBelow) : A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checklist, _user$project$DropUp$css.checklistAbove);
+		return _elm_lang$core$Native_Utils.eq(state.displayDropDown, true) ? A2(
+			_elm_lang$html$Html$div,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$style(cssStyle),
+				_1: {ctor: '[]'}
+			},
+			A2(
+				_elm_lang$core$List$map,
+				A3(_user$project$DropUp$viewRow, _p16.dataToMsg, _p16.dataToString, data),
+				data)) : _elm_lang$html$Html$text('');
+	});
+var _user$project$DropUp$Up = {ctor: 'Up'};
+var _user$project$DropUp$viewButtonsWrapper = F3(
+	function (_p17, data, state) {
+		var _p18 = _p17;
+		var _p19 = _p18._0;
+		var cssStyle = _elm_lang$core$Native_Utils.eq(_p19.displayDirection, _user$project$DropUp$Up) ? _user$project$DropUp$css.checkAllButtons : A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checkAllButtons, _user$project$DropUp$css.checkAllButtonsAbove);
+		return (state.displayDropDown && _p19.displayCheckAllButtons) ? A2(
+			_elm_lang$html$Html$div,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$style(
+					{
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'position', _1: 'absolute'},
+						_1: {
+							ctor: '::',
+							_0: {ctor: '_Tuple2', _0: 'width', _1: '100%'},
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {ctor: '[]'}
+			},
+			{
+				ctor: '::',
+				_0: A3(_user$project$DropUp$viewSelectAllButton, cssStyle, data, _p19.dataToMsg),
+				_1: {
+					ctor: '::',
+					_0: A3(_user$project$DropUp$viewHideAllButton, cssStyle, data, _p19.dataToMsg),
+					_1: {ctor: '[]'}
+				}
+			}) : _elm_lang$html$Html$text('');
+	});
+var _user$project$DropUp$Config = function (a) {
+	return {ctor: 'Config', _0: a};
+};
+var _user$project$DropUp$config = function (_p20) {
+	var _p21 = _p20;
+	return _user$project$DropUp$Config(
+		{
+			displayText: _p21.displayText,
+			stateToMsg: _p21.stateToMsg,
+			dataToMsg: _p21.dataToMsg,
+			dataToString: function (data) {
+				return data;
+			},
+			displayDirection: _user$project$DropUp$Up,
+			displayCheckAllButtons: false
+		});
+};
+var _user$project$DropUp$customConfig = function (_p22) {
+	var _p23 = _p22;
+	return _user$project$DropUp$Config(
+		{displayText: _p23.displayText, stateToMsg: _p23.stateToMsg, dataToMsg: _p23.dataToMsg, dataToString: _p23.dataToString, displayDirection: _p23.displayDirection, displayCheckAllButtons: _p23.displayCheckAllButtons});
+};
+var _user$project$DropUp$view = F3(
+	function (_p24, state, data) {
+		var _p25 = _p24;
+		var _p26 = _p25._0;
+		return A2(
+			_elm_lang$html$Html$div,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$style(
+					{
+						ctor: '::',
+						_0: {ctor: '_Tuple2', _0: 'position', _1: 'relative'},
+						_1: {ctor: '[]'}
+					}),
+				_1: {ctor: '[]'}
+			},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$button,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$style(_user$project$DropUp$css.toggleButton),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Events$onClick(
+								_p26.stateToMsg(
+									_user$project$DropUp$toggleDisplay(state))),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text(_p26.displayText),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A3(
+						_user$project$DropUp$viewButtonsWrapper,
+						_user$project$DropUp$Config(_p26),
+						data,
+						state),
+					_1: {
+						ctor: '::',
+						_0: A3(
+							_user$project$DropUp$viewChecklist,
+							_user$project$DropUp$Config(_p26),
+							data,
+							state),
+						_1: {ctor: '[]'}
+					}
+				}
+			});
+	});
