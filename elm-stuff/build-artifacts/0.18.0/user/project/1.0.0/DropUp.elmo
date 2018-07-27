@@ -182,7 +182,7 @@ var _user$project$DropUp$toggleDisplay = function (state) {
 		state,
 		{displayDropDown: !state.displayDropDown});
 };
-var _user$project$DropUp$viewHideAllButton = F3(
+var _user$project$DropUp$viewUncheckAllButton = F3(
 	function (cssStyle, data, dataToMsg) {
 		return A2(
 			_elm_lang$html$Html$button,
@@ -211,7 +211,7 @@ var _user$project$DropUp$viewHideAllButton = F3(
 				_1: {ctor: '[]'}
 			});
 	});
-var _user$project$DropUp$viewSelectAllButton = F3(
+var _user$project$DropUp$viewCheckAllButton = F3(
 	function (cssStyle, data, dataToMsg) {
 		return A2(
 			_elm_lang$html$Html$button,
@@ -300,16 +300,24 @@ var _user$project$DropUp$viewRow = F4(
 				}
 			});
 	});
-var _user$project$DropUp$initialState = {displayDropDown: true};
+var _user$project$DropUp$initialState = {displayDropDown: false};
 var _user$project$DropUp$State = function (a) {
 	return {displayDropDown: a};
 };
+var _user$project$DropUp$Config = function (a) {
+	return {ctor: 'Config', _0: a};
+};
+var _user$project$DropUp$customConfig = function (_p14) {
+	var _p15 = _p14;
+	return _user$project$DropUp$Config(
+		{displayText: _p15.displayText, stateToMsg: _p15.stateToMsg, dataToMsg: _p15.dataToMsg, dataToString: _p15.dataToString, displayDirection: _p15.displayDirection, displayCheckAllButtons: _p15.displayCheckAllButtons});
+};
 var _user$project$DropUp$Down = {ctor: 'Down'};
 var _user$project$DropUp$viewChecklist = F3(
-	function (_p14, data, state) {
-		var _p15 = _p14;
-		var _p16 = _p15._0;
-		var cssStyle = _elm_lang$core$Native_Utils.eq(_p16.displayDirection, _user$project$DropUp$Down) ? A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checklist, _user$project$DropUp$css.checklistBelow) : A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checklist, _user$project$DropUp$css.checklistAbove);
+	function (_p16, data, state) {
+		var _p17 = _p16;
+		var _p18 = _p17._0;
+		var cssStyle = _elm_lang$core$Native_Utils.eq(_p18.displayDirection, _user$project$DropUp$Down) ? A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checklist, _user$project$DropUp$css.checklistBelow) : A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checklist, _user$project$DropUp$css.checklistAbove);
 		return _elm_lang$core$Native_Utils.eq(state.displayDropDown, true) ? A2(
 			_elm_lang$html$Html$div,
 			{
@@ -319,16 +327,30 @@ var _user$project$DropUp$viewChecklist = F3(
 			},
 			A2(
 				_elm_lang$core$List$map,
-				A3(_user$project$DropUp$viewRow, _p16.dataToMsg, _p16.dataToString, data),
+				A3(_user$project$DropUp$viewRow, _p18.dataToMsg, _p18.dataToString, data),
 				data)) : _elm_lang$html$Html$text('');
 	});
 var _user$project$DropUp$Up = {ctor: 'Up'};
+var _user$project$DropUp$config = function (_p19) {
+	var _p20 = _p19;
+	return _user$project$DropUp$Config(
+		{
+			displayText: _p20.displayText,
+			stateToMsg: _p20.stateToMsg,
+			dataToMsg: _p20.dataToMsg,
+			dataToString: function (data) {
+				return data;
+			},
+			displayDirection: _user$project$DropUp$Up,
+			displayCheckAllButtons: false
+		});
+};
 var _user$project$DropUp$viewButtonsWrapper = F3(
-	function (_p17, data, state) {
-		var _p18 = _p17;
-		var _p19 = _p18._0;
-		var cssStyle = _elm_lang$core$Native_Utils.eq(_p19.displayDirection, _user$project$DropUp$Up) ? _user$project$DropUp$css.checkAllButtons : A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checkAllButtons, _user$project$DropUp$css.checkAllButtonsAbove);
-		return (state.displayDropDown && _p19.displayCheckAllButtons) ? A2(
+	function (_p21, data, state) {
+		var _p22 = _p21;
+		var _p23 = _p22._0;
+		var cssStyle = _elm_lang$core$Native_Utils.eq(_p23.displayDirection, _user$project$DropUp$Up) ? _user$project$DropUp$css.checkAllButtons : A2(_elm_lang$core$Basics_ops['++'], _user$project$DropUp$css.checkAllButtons, _user$project$DropUp$css.checkAllButtonsAbove);
+		return (state.displayDropDown && _p23.displayCheckAllButtons) ? A2(
 			_elm_lang$html$Html$div,
 			{
 				ctor: '::',
@@ -346,36 +368,14 @@ var _user$project$DropUp$viewButtonsWrapper = F3(
 			},
 			{
 				ctor: '::',
-				_0: A3(_user$project$DropUp$viewSelectAllButton, cssStyle, data, _p19.dataToMsg),
+				_0: A3(_user$project$DropUp$viewCheckAllButton, cssStyle, data, _p23.dataToMsg),
 				_1: {
 					ctor: '::',
-					_0: A3(_user$project$DropUp$viewHideAllButton, cssStyle, data, _p19.dataToMsg),
+					_0: A3(_user$project$DropUp$viewUncheckAllButton, cssStyle, data, _p23.dataToMsg),
 					_1: {ctor: '[]'}
 				}
 			}) : _elm_lang$html$Html$text('');
 	});
-var _user$project$DropUp$Config = function (a) {
-	return {ctor: 'Config', _0: a};
-};
-var _user$project$DropUp$config = function (_p20) {
-	var _p21 = _p20;
-	return _user$project$DropUp$Config(
-		{
-			displayText: _p21.displayText,
-			stateToMsg: _p21.stateToMsg,
-			dataToMsg: _p21.dataToMsg,
-			dataToString: function (data) {
-				return data;
-			},
-			displayDirection: _user$project$DropUp$Up,
-			displayCheckAllButtons: false
-		});
-};
-var _user$project$DropUp$customConfig = function (_p22) {
-	var _p23 = _p22;
-	return _user$project$DropUp$Config(
-		{displayText: _p23.displayText, stateToMsg: _p23.stateToMsg, dataToMsg: _p23.dataToMsg, dataToString: _p23.dataToString, displayDirection: _p23.displayDirection, displayCheckAllButtons: _p23.displayCheckAllButtons});
-};
 var _user$project$DropUp$view = F3(
 	function (_p24, state, data) {
 		var _p25 = _p24;

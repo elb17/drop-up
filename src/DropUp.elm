@@ -1,17 +1,15 @@
-module DropUp
-    exposing
-        ( Config
-        , Direction(Down, Up)
-        , State
-        , config
-        , customConfig
-        , initialState
-        , view
-        )
+module DropUp exposing
+    ( Config
+    , Direction (Down, Up)
+    , State
+    , config
+    , customConfig
+    , initialState
+    , view
+    )
 
 {-| This package helps you create a simple dropdown with a checklist that allows
 you to select multiple options at once.
-
 
 # State
 
@@ -28,27 +26,10 @@ you to select multiple options at once.
 @docs view
 
 -}
-
---Todo: I don't have anything that works with "btn" class
-{-
-    Customize:
-     Currently: direction, showall/hideall buttons, non-strings
-
-   -Css (color)
-         ???Do I just ask for a set of HTML attributes
--}
-
-{-todo: possible problems
-1. I don't know whether displayText is something that they'd want to keep editing
-2. I'm assuming that their dataType won't change
-3. Should I see if I can type alias some of the more complex types? (like (dataType, Bool)?)
-4. Do I need a helper to make the list? [()()()]
-5. Should I make the size automatic + customizable?
--}
-
 import Html exposing (Html, button, div, input, span, text)
 import Html.Attributes exposing (checked, style, type_)
 import Html.Events exposing (onClick)
+
 
 
 -- STATE
@@ -61,18 +42,11 @@ type alias State =
     }
 
 
-{-| The direction that the checklist will be displayed.
--}
-type Direction
-    = Up
-    | Down
-
-
 {-| Create a dropdown state.
 -}
 initialState : State
 initialState =
-    { displayDropDown = True --False
+    { displayDropDown = False
     }
 
 
@@ -94,8 +68,21 @@ type Config dataType msg
         , stateToMsg : State -> msg
         }
 
+{-| Create the 'Config' for your 'view' function.
 
-{-| Create the configuration for your 'view' function.
+For example:
+
+    import DropUp
+
+    type Msg = SetDropDownState DropUp.State | SetItems (List (String, Bool)) | ...
+
+    config : DropUp.Config String Msg
+    config =
+        DropUp.config
+            { displayText = "Example DropDown"
+            , stateToMsg = SetDropDownState
+            , dataToMsg = SetItems
+            }
 
 You provide the following information for your dropdown configuration:
 
@@ -120,15 +107,16 @@ config { displayText, stateToMsg, dataToMsg } =
         }
 
 
-{-| Create a custom configuration for your 'view' function.
+{-| This is just like 'config',
+but you can specify more fields for the dropdown.
 
 In addition to the information needed for config, you also provide:
 
   - 'dataToString' &mdash; A function to convert one of the items from your checklist to
-    a string for diplay purposes (such as (\s -> toString(s))
+    a string for display purposes (such as (\s -> toString(s))
   - 'dataType' &mdash; This is the variable type of each item in your checklist.
-    For example, if the items in your dropdown are ints, dataType should be Int
-  - 'displayDirection' &mdash; The direction that the checklist will be displayed (Up or Down)
+    For example, if the items in your dropdown are integers, dataType should be Int
+  - 'displayDirection' &mdash; The direction that the checklist will be displayed (DropUp.Up or DropUp.Down)
 -}
 customConfig :
     { displayText : String
@@ -150,15 +138,22 @@ customConfig { displayText, stateToMsg, dataToMsg, dataToString, displayDirectio
         }
 
 
+{-| The direction that the checklist will be displayed.
+-}
+type Direction
+    = Up
+    | Down
+
+
 
 -- VIEW
 
 
 {-| Take a list of data and turn it into a multi-select dropdown. The 'Config' argument
-is the configuration for the dropdown. The 'State' argument describes which items are
-currently checked.
+is the configuration for the dropdown. The 'State' argument describes whether the dropdown
+menu is displayed or not.
 
-The data argument is the complete list of (dataType, Bool) pairs to display
+The data argument is the complete list of (item, Bool) pairs to display
 in the dropdown. The first entry of each pair is what is displayed in the dropdown, and
 the second entry is whether or not it is checked.
 
@@ -236,15 +231,15 @@ viewButtonsWrapper (Config config) data state =
     in
     if state.displayDropDown && config.displayCheckAllButtons then
         div [ style [ ( "position", "absolute" ), ( "width", "100%" ) ] ]
-            [ viewSelectAllButton cssStyle data config.dataToMsg
-            , viewHideAllButton cssStyle data config.dataToMsg
+            [ viewCheckAllButton cssStyle data config.dataToMsg
+            , viewUncheckAllButton cssStyle data config.dataToMsg
             ]
     else
         text ""
 
 
-viewSelectAllButton : List ( String, String ) -> List ( dataType, Bool ) -> (List ( dataType, Bool ) -> msg) -> Html msg
-viewSelectAllButton cssStyle data dataToMsg =
+viewCheckAllButton : List ( String, String ) -> List ( dataType, Bool ) -> (List ( dataType, Bool ) -> msg) -> Html msg
+viewCheckAllButton cssStyle data dataToMsg =
     button
         [ style cssStyle
         , onClick (checkAll data |> dataToMsg)
@@ -252,13 +247,17 @@ viewSelectAllButton cssStyle data dataToMsg =
         [ text "Check All" ]
 
 
-viewHideAllButton : List ( String, String ) -> List ( dataType, Bool ) -> (List ( dataType, Bool ) -> msg) -> Html msg
-viewHideAllButton cssStyle data dataToMsg =
+viewUncheckAllButton : List ( String, String ) -> List ( dataType, Bool ) -> (List ( dataType, Bool ) -> msg) -> Html msg
+viewUncheckAllButton cssStyle data dataToMsg =
     button
         [ style (cssStyle ++ [ ( "border-left", "none" ) ])
         , onClick (uncheckAll data |> dataToMsg)
         ]
         [ text "Uncheck All" ]
+
+
+
+-- HELPERS
 
 
 {-| Toggle whether the dropdown is displayed.

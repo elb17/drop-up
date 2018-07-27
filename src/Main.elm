@@ -14,10 +14,15 @@ main =
         }
 
 
+
+-- MODEL
+
+
 type alias Model =
     { data : List (String, Bool)
     , dropdownState : DropUp.State
     }
+
 
 init : ( Model, Cmd Msg )
 init =
@@ -30,6 +35,7 @@ init =
 
 
 -- Update
+
 
 type Msg
     = SetDropDownState DropUp.State
@@ -49,6 +55,7 @@ update msg model =
             )
 
 
+
 -- VIEW
 
 
@@ -66,11 +73,6 @@ view { data, dropdownState } =
 
 config : DropUp.Config String Msg
 config =
---    DropUp.config
---        { displayText = "Example"
---        , stateToMsg = SetDropDownState
---        , dataToMsg = SetItems
---        }
     DropUp.customConfig
         { displayText = "Example"
         , stateToMsg = SetDropDownState

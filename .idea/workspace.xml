@@ -1,312 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16950e0d-aea7-425a-91c4-243f27196708" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/DropUp.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/DropUpProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Array.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Array.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Basics.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Basics.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Bitwise.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Bitwise.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Char.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Char.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Color.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Color.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Date.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Date.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Debug.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Debug.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Dict.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Dict.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Json-Decode.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Json-Decode.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Json-Encode.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Json-Encode.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/List.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/List.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Maybe.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Maybe.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform-Cmd.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform-Cmd.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform-Sub.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform-Sub.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Process.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Process.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Random.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Random.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Regex.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Regex.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Result.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Result.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Set.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Set.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/String.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/String.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Task.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Task.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Time.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Time.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Tuple.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Tuple.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-LowLevel.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-LowLevel.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-Scroll.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-Scroll.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-Size.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-Size.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Attributes.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Attributes.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Events.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Events.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Keyed.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Keyed.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Lazy.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Lazy.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http-Internal.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http-Internal.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http-Progress.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http-Progress.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/keyboard/1.0.1/Keyboard.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/keyboard/1.0.1/Keyboard.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/keyboard/1.0.1/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/navigation/2.1.0/Navigation.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/navigation/2.1.0/Navigation.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/navigation/2.1.0/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Attributes.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Attributes.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Events.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Events.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Keyed.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Keyed.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Lazy.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Lazy.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Debug.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Debug.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Expando.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Expando.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Helpers.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Helpers.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-History.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-History.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Metadata.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Metadata.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Overlay.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Overlay.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Report.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Report.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser-primitives/1.0.0/ParserPrimitives.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser-primitives/1.0.0/ParserPrimitives.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser-primitives/1.0.0/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-Internal.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-Internal.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-LanguageKit.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-LanguageKit.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-LowLevel.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-LowLevel.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/graph.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/DropUp.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/DropUp.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/Main.elmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/Main.elmo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/exact-dependencies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Debug.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Bitwise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Char.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Platform.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Cmd.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Sub.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/src/Tuple.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Main.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Array.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Basics.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Bitwise.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Char.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Dict.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Equality.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Json.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/List.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Maybe.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Regex.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Result.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Set.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/String.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/core/5.1.1/tests/run-tests.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/assets/boundaries.acorn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/assets/boundaries.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/src/Dom.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/src/Dom/LowLevel.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/src/Dom/Scroll.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/src/Dom/Size.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/dom/1.1.1/src/Native/Dom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/properties-vs-attributes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Keyed.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Lazy.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/rate-limit.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/src/Http.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/src/Http/Internal.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/src/Http/Progress.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/http/1.0.0/src/Native/Http.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/keyboard/1.0.1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/keyboard/1.0.1/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/keyboard/1.0.1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/keyboard/1.0.1/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/keyboard/1.0.1/src/Keyboard.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/examples/Example.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/examples/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/examples/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/src/Native/Navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/navigation/2.1.0/src/Navigation.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/examples/Logo.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg/Attributes.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg/Events.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg/Keyed.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg/Lazy.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestCases/Lazy.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestMain.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/run-tests.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/src/Native/ParserPrimitives.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/src/ParserPrimitives.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/comparison.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/elm-package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/src/Parser.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/src/Parser/Internal.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/src/Parser/LanguageKit.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/elm-stuff/packages/elm-tools/parser/2.0.1/src/Parser/LowLevel.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/src/DropUp.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropUpProject/src/example.elm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drop_up_example.elm" beforeDir="false" />
+    <list default="true" id="8e8ffa2e-f51b-4e30-be24-4987ccea939b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DropUpReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drop-up.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elm-package.json" beforeDir="false" afterPath="$PROJECT_DIR$/elm-package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/documentation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Array.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Array.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Basics.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Basics.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Bitwise.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Bitwise.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Char.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Char.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Color.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Color.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Date.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Date.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Debug.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Debug.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Dict.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Dict.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Json-Decode.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Json-Decode.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Json-Encode.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Json-Encode.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/List.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/List.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Maybe.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Maybe.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform-Cmd.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform-Cmd.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform-Sub.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform-Sub.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Platform.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Process.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Process.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Random.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Random.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Regex.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Regex.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Result.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Result.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Set.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Set.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/String.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/String.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Task.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Task.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Time.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Time.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Tuple.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/Tuple.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/core/5.1.1/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-LowLevel.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-LowLevel.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-Scroll.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-Scroll.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-Size.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom-Size.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/Dom.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/dom/1.1.1/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Attributes.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Attributes.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Events.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Events.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Keyed.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Keyed.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Lazy.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html-Lazy.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/Html.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/html/2.0.0/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http-Internal.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http-Internal.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http-Progress.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http-Progress.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/Http.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/http/1.0.0/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/keyboard/1.0.1/Keyboard.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/keyboard/1.0.1/Keyboard.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/keyboard/1.0.1/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/navigation/2.1.0/Navigation.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/navigation/2.1.0/Navigation.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/navigation/2.1.0/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Attributes.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Attributes.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Events.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Events.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Keyed.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Keyed.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Lazy.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg-Lazy.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/Svg.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/svg/2.0.0/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Debug.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Debug.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Expando.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Expando.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Helpers.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Helpers.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-History.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-History.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Metadata.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Metadata.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Overlay.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Overlay.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Report.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom-Report.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/VirtualDom.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-lang/virtual-dom/2.0.4/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser-primitives/1.0.0/ParserPrimitives.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser-primitives/1.0.0/ParserPrimitives.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser-primitives/1.0.0/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-Internal.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-Internal.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-LanguageKit.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-LanguageKit.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-LowLevel.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser-LowLevel.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/Parser.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/elm-tools/parser/2.0.1/graph.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/DropUp.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/DropUp.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/Main.elmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/build-artifacts/0.18.0/user/project/1.0.0/Main.elmo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/exact-dependencies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Array.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Basics.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Bitwise.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Char.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Color.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Date.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Debug.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Dict.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Decode.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Json/Encode.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/List.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Maybe.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Basics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Bitwise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Char.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/List.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Regex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Scheduler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/String.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Native/Utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Platform.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Cmd.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Platform/Sub.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Process.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Random.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Regex.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Result.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Set.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/String.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Task.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Time.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/src/Tuple.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Main.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Array.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Basics.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Bitwise.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Char.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/CodeGen.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Dict.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Equality.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Json.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/List.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Maybe.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Regex.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Result.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/Set.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/Test/String.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/core/5.1.1/tests/run-tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/assets/boundaries.acorn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/assets/boundaries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/src/Dom.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/src/Dom/LowLevel.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/src/Dom/Scroll.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/src/Dom/Size.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/dom/1.1.1/src/Native/Dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/properties-vs-attributes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/src/Html.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Attributes.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Events.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Keyed.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/html/2.0.0/src/Html/Lazy.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/rate-limit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/src/Http.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/src/Http/Internal.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/src/Http/Progress.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/http/1.0.0/src/Native/Http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/keyboard/1.0.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/keyboard/1.0.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/keyboard/1.0.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/keyboard/1.0.1/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/keyboard/1.0.1/src/Keyboard.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/examples/Example.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/examples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/examples/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/src/Native/Navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/navigation/2.1.0/src/Navigation.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/examples/Logo.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg/Attributes.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg/Events.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg/Keyed.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/svg/2.0.0/src/Svg/Lazy.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/Debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/Native/VirtualDom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Debug.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Expando.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Helpers.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/History.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Metadata.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Overlay.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/src/VirtualDom/Report.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/Native/TestHelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestCases/Lazy.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestHelpers.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/TestMain.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-lang/virtual-dom/2.0.4/tests/run-tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/src/Native/ParserPrimitives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser-primitives/1.0.0/src/ParserPrimitives.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/comparison.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/src/Parser.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/src/Parser/Internal.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/src/Parser/LanguageKit.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/elm-stuff/packages/elm-tools/parser/2.0.1/src/Parser/LowLevel.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/Main.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/tests/Tests.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/tests/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DropUp.elm" beforeDir="false" afterPath="$PROJECT_DIR$/src/DropUp.elm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elm-package.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -318,45 +311,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.elm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/Main.elm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DropUp.elm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DropUp.elm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DropUp.elm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elm-package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/tests/elm-package.json">
+      <file leaf-file-name="documentation.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation.json">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="elm-package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/elm-package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="elm-package.json" pinned="false" current-in-tab="false">
@@ -364,78 +330,28 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file leaf-file-name="DropUpReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DropUpReadMe.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>word</find>
-      <find>selectHideAll</find>
-      <find>toggleB</find>
-      <find>toggleButton</find>
-      <find>hi&quot;</find>
-      <find>viewchecklist</find>
-      <find>wrapper</find>
-      <find>viewChecklist</find>
-      <find>popUpMenu</find>
-      <find>border-t</find>
-      <find>itemsList</find>
-      <find>checkall</find>
-      <find>togglei</find>
-      <find>tomsg</find>
-      <find>Config</find>
-      <find>hi</find>
-      <find>(Bool, String)</find>
-      <find>, item</find>
-      <find>(isChecked, item)</find>
-      <find>item,</find>
-      <find>data</find>
-      <find>String, Bool</find>
-      <find>Events</find>
-      <find>&quot;Sel</find>
-      <find>todo</find>
-      <find>150</find>
-      <find>state.displ</find>
-      <find>String</find>
-      <find>direction</find>
-      <find>Int</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>title</replace>
-      <replace>style</replace>
-      <replace>onClick</replace>
-      <replace>Html</replace>
-      <replace>selectHideAllButton</replace>
-      <replace>displayText</replace>
-      <replace>checklist</replace>
-      <replace>data</replace>
-      <replace>(Bool, String)</replace>
-      <replace>stateToMsg</replace>
-      <replace>(String, Bool)</replace>
-      <replace>(item, isChecked)</replace>
-      <replace>Int</replace>
-      <replace>dataType, Bool</replace>
-      <replace>String</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/example/public/index.html" />
-        <option value="$PROJECT_DIR$/example/src/index.js" />
-        <option value="$PROJECT_DIR$/example/examples/Main.elm" />
-        <option value="$PROJECT_DIR$/example/elm-package.json" />
-        <option value="$PROJECT_DIR$/example/src/Main.elm" />
-        <option value="$PROJECT_DIR$/src/DropUp.elm" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-53" />
-    <option name="width" value="1481" />
+    <option name="x" value="-17" />
+    <option name="width" value="1902" />
     <option name="height" value="1454" />
   </component>
   <component name="ProjectView">
@@ -443,9 +359,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -456,45 +369,29 @@
             <path>
               <item name="drop-up" type="b2602c69:ProjectViewProjectNode" />
               <item name="drop-up" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drop-up" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drop-up" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="elm-stuff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drop-up" type="b2602c69:ProjectViewProjectNode" />
               <item name="drop-up" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drop-up" type="b2602c69:ProjectViewProjectNode" />
               <item name="drop-up" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drop-up" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drop-up" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\t-elbroo\Desktop\drop-up\example\src" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -556,179 +453,78 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16950e0d-aea7-425a-91c4-243f27196708" name="Default" comment="" />
-      <created>1532472161697</created>
+      <changelist id="8e8ffa2e-f51b-4e30-be24-4987ccea939b" name="Default" comment="" />
+      <created>1532709278429</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532472161697</updated>
+      <updated>1532709278429</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-35" y="0" width="987" height="969" extended-state="0" />
-    <editor active="true" />
+    <frame x="-11" y="0" width="1268" height="969" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.006472492" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23178808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297619" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/DropUp.elm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/tests/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DropUp.elm" />
-    <entry file="file://$PROJECT_DIR$/example/src/Main.elm" />
-    <entry file="file://$PROJECT_DIR$/example/tests/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DropUp.elm" />
-    <entry file="file://$PROJECT_DIR$/example/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/tests/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/example/src/Main.elm" />
-    <entry file="file://$PROJECT_DIR$/example/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DropUp.elm" />
-    <entry file="file://$PROJECT_DIR$/examples/index.html" />
-    <entry file="file://$PROJECT_DIR$/examples/elm-package.json" />
-    <entry file="file://$PROJECT_DIR$/example/public/logo.svg" />
-    <entry file="file://$PROJECT_DIR$/example/public/manifest.json" />
-    <entry file="file://$PROJECT_DIR$/example/examples/Main.elm" />
-    <entry file="file://$PROJECT_DIR$/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/tests/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/example/elm-package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/example/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/documentation.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/documentation.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/Main.elm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DropUp.elm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm-package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elm-stuff/exact-dependencies.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DropUpReadMe.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
